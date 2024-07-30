@@ -10,7 +10,7 @@ def process_main_page():
 
 
 def show_main_page():
-    image = Image.open('data/mouse.jpg')
+    image = Image.open('data/airport.jpg')
     max_size = (800, 600)
     image.thumbnail(max_size)
 
